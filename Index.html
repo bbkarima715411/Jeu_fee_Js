@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div>
+        <video id="background-video" autoplay loop muted>
+            <source src="image/vecteezy_blue-looped-background-of-many-blurred-circles-with-bokeh_25466933.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <h1>M E M O R Y</h1>
+    </div>
+
+    <div class="contenu">
+        <div>
+            <p class="instruction">
+                Appuyez sur démarrer pour commencer
+            </p>
+        </div>
+        <table>
+            <tbody id="card-table">
+                <!-- Les cartes via JavaScript -->
+            </tbody>
+        </table>
+
+        <div class="container"> 
+            <div class="chronometre"> 
+                <h2>Chronomètre : <span id="timer">00:00</span></h2> 
+            </div> 
+            <div class="coups"> 
+                <h3>Nombre de Coups : <span id="clicks">0</span></h3> 
+            </div> 
+            <div class="nbCoups">
+                <button id="start">Démarrer</button> 
+                <button id="reset">Réinitialiser</button> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
