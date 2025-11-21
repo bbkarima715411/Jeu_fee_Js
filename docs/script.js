@@ -4,14 +4,14 @@ let interval = null;
 let clicks = 0;
 
 const cards = [
-    './image/img0.jpg', './image/img0.jpg', 
-    './image/img1.jpg', './image/img1.jpg', 
-    './image/img2.jpg', './image/img2.jpg', 
-    './image/img3.png', './image/img3.png', 
-    './image/img4.jpg', './image/img4.jpg', 
-    './image/img5.jpg', './image/img5.jpg', 
-    './image/img6.jpg', './image/img6.jpg', 
-    './image/img7.jpg', './image/img7.jpg'
+    'docs/image/img0.jpg', 'docs/image/img0.jpg', 
+    'docs/image/img1.jpg', 'docs/image/img1.jpg', 
+    'docs/image/img2.jpg', 'docs/image/img2.jpg', 
+    'docs/image/img3.png', 'docs/image/img3.png', 
+    'docs/image/img4.jpg', 'docs/image/img4.jpg', 
+    'docs/image/img5.jpg', 'docs/image/img5.jpg', 
+    'docs/image/img6.jpg', 'docs/image/img6.jpg', 
+    'docs/image/img7.jpg', 'docs/image/img7.jpg'
 ];
 
 let firstCard = null;
